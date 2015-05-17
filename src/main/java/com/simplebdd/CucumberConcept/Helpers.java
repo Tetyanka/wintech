@@ -7,7 +7,6 @@ import java.io.OutputStreamWriter;
 import java.io.Writer;
 import java.util.ArrayList;
 import java.util.List;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -32,7 +31,7 @@ public class Helpers {
 		return textWebElements;
 	}
 	/**
-	 * method prints out to commend line provided List<String>
+	 * method prints out to command line provided List<String>
 	 * @param listOfTextElements
 	 */
 	public void printOutList(List<String> listOfTextElements){
